@@ -1,0 +1,147 @@
+#status {
+  position: absolute;
+  left: 160px;
+  top: 80px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.status.online {
+  color: green;
+}
+
+.status.offline {
+  color: red;
+}
+
+.server-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.server-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.server-info .status {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.server-info .player-count {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.server-info .version {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.server-info .description {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.lists {
+  width: 100%;
+  display: block;
+}
+
+.plugins-players {
+  display: flex;
+  justify-content: left;
+}
+
+.plugins,
+.players {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.plugins {
+  padding-right: 20px;
+}
+
+.toggle-plugins {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.toggle-players {
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.plugin-list {
+  display: none;
+  width: 200px;
+  padding: 10px 20px 10px 20px;
+  background-color: #121212;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.player-list {
+  display: none;
+  width: 250px;
+  padding: 10px 20px 10px 20px;
+  background-color: #121212;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.plugin-list li,
+.player-list li {
+  color: #fff;
+  height: 25px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.player-list li{
+  padding-bottom: 10px;
+}
+
+.player-head {
+  position: relative;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.player-name{
+  display: inline;
+}
+
+#copy-ip-button {
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 563px;
+  background-color: blue;
+  border: none;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#copy-ip-button:hover {
+  background-color: lightskyblue;
+  color: black
+}

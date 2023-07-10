@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-color: blue transparent;
+  scrollbar-track-color: transparent;
+  scrollbar-arrow-color: transparent;
+  scrollbar-face-color: blue;
+  scrollbar-shadow-color: transparent;
+  scrollbar-highlight-color: darkblue;
+}
+
+body {
+  background-color: #282828;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar, *::-webkit-scrollbar-corner, *::-webkit-scrollbar-track, *::-webkit-scrollbar-button {
+  background-color: transparent;
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track, *::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: darkblue;
+}
+
+.top-bar {
+  background-color: #121212;
+  color: blue;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  z-index: 10;
+}
+
+#page-name, #page-name:visited {
+  text-decoration: none;
+  position: fixed;
+  font-size: 24px;
+  flex-grow: 1;
+  z-index: 9999;
+  left: 45px;
+  top: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #121212;
+  border: none;
+  color: #2196f3;
+}
+
+.fa-icon {
+  position: fixed;
+  left: 10px;
+  border: none;
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url("/icons/fav.png");
+  background-repeat: no-repeat;
+  background-color: none;
+  background-size: contain;
+}
+
+.sidebar {
+  display: block;
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+.active {
+  background-color: blue;
+  color: white !important;
+}
+
+.active:hover {
+  background-color: lightskyblue;
+  color: black;
+}
