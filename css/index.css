@@ -72,7 +72,7 @@
   cursor: pointer;
   text-align: center;
   padding: 10px;
-  width: 200px;
+  width: 250px;
   background-color: black;
   border-radius: 5px;
 }
@@ -88,7 +88,7 @@
 
 .plugin-list {
   display: none;
-  width: 200px;
+  width: 250px;
   padding: 10px 20px 10px 20px;
   background-color: #121212;
   border-bottom-left-radius: 10px;
@@ -132,7 +132,7 @@
   display: flex;
   position: absolute;
   top: 90px;
-  left: 563px;
+  left: 613px;
   background-color: blue;
   border: none;
   color: #fff;
