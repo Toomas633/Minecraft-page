@@ -107,9 +107,9 @@
 .plugin-list li,
 .player-list li {
   color: #fff;
-  height: 25px;
+  height: fit-content;
+  padding-bottom: 10px;
   display: flex;
-  height: 100%;
   align-items: center;
 }
 
