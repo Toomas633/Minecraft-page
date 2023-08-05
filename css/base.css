@@ -84,7 +84,7 @@ body {
   right: 0;
   background-color: #121212;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.5s ease;
   padding-top: 60px;
 }
 
@@ -137,4 +137,5 @@ body {
   width: 100%;
   right: 0;
   height: calc(100% - 64px);
+  transition: 0.5s ease;
 }
