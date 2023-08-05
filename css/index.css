@@ -1,6 +1,6 @@
 #status {
   margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
   color: #fff;
   width: fit-content;
 }
@@ -130,7 +130,7 @@
 #copy-ip-button {
   display: flex;
   position: inherit;
-  top: 40px;
+  top: 20px;
   left: 473px;
   background-color: blue;
   border: none;
@@ -143,4 +143,39 @@
 #copy-ip-button:hover {
   background-color: lightskyblue;
   color: black
+}
+
+@media (max-width: 560px) {
+  .content {
+    scale: 0.9;
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 504px) {
+  .content {
+    scale: 0.8;
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 448px) {
+  .content {
+    scale: 0.7;
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 392px) {
+  .content {
+    scale: 0.6;
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 336px) {
+  .content {
+    scale: 0.5;
+    transform-origin: top left;
+  }
 }
