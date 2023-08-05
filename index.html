@@ -12,14 +12,18 @@
     <header class="top-bar">
       <a id="page-name" href="/"><i class="fas fa-icon"></i>Minecraft Servers</a>
     </header>
-    <div id="status"></div>
-    <button id="copy-ip-button">Copy IP</button>
-    <div class="sidebar">
+    <button class="sidebtn" onclick="toggleNav()">☰</button>
+    <div class="content" id="Content">
+      <div id="status"></div>
+      <button id="copy-ip-button">Copy IP</button>
+    </div>
+    <div class="sidebar" id="Sidebar">
       <a href="/" class="active">Home</a>
       <h2>Vanilla</h2>
       <a href="/stats.html">Statistics</a>
       <a href="map.html">Map</a>
     </div>
     <script type="text/javascript" src="/js/index.js"></script>
+    <script type="text/javascript" src="/js/base.js"></script>
   </body>
 </html>

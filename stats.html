@@ -12,14 +12,20 @@
     <header class="top-bar">
       <a id="page-name" href="/"><i class="fas fa-icon"></i>vanilla.toomas633.com</a>
     </header>
-    <div class="sidebar">
+    <button class="sidebtn" onclick="toggleNav()">☰</button>
+    <div class="sidebar" id="Sidebar">
       <a href="/">Home</a>
       <h2>Vanilla</h2>
       <a href="/stats.html" class="active">Statistics</a>
       <a href="/map.html">Map</a>
     </div>
-    <div id="dashboard">
-      <iframe title="Grafana" class="grafana" src="https://grafana.toomas633.com/public-dashboards/7b6ae94eab704c5e948fb5a4ae8d3d99"></iframe>
+    <div class="content" id="Content">
+      <iframe
+        title="Grafana"
+        class="grafana"
+        src="https://grafana.toomas633.com/public-dashboards/7b6ae94eab704c5e948fb5a4ae8d3d99"
+      ></iframe>
     </div>
+    <script type="text/javascript" src="/js/base.js"></script>
   </body>
 </html>

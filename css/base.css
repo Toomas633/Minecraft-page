@@ -77,12 +77,12 @@ body {
 .sidebar {
   display: block;
   height: 100%;
-  width: 150px;
+  width: 0;
   position: fixed;
   z-index: 9;
   top: 0;
-  left: 0;
-  background-color: #111;
+  right: 0;
+  background-color: #121212;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -115,4 +115,26 @@ body {
 .active:hover {
   background-color: lightskyblue;
   color: black !important;
+}
+
+.sidebtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #121212;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  right: 10px;
+  height: 60px;
+  z-index: 10;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  height: calc(100% - 64px);
 }

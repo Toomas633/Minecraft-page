@@ -1,12 +1,3 @@
-.data {
-  display: flex;
-  position: absolute;
-  left: 150px;
-  top: 60px;
-  width: calc(100% - 150px);
-  height: calc(100% - 60px);
-}
-
 .map {
   width: 100%;
   height: 100%;

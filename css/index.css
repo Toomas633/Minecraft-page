@@ -1,9 +1,8 @@
 #status {
-  position: absolute;
-  left: 160px;
-  top: 80px;
-  margin: 0 auto;
+  margin-left: 20px;
+  margin-top: 40px;
   color: #fff;
+  width: fit-content;
 }
 
 .status.online {
@@ -130,9 +129,9 @@
 
 #copy-ip-button {
   display: flex;
-  position: absolute;
-  top: 90px;
-  left: 613px;
+  position: inherit;
+  top: 40px;
+  left: 473px;
   background-color: blue;
   border: none;
   color: #fff;

@@ -12,14 +12,16 @@
     <header class="top-bar">
       <a id="page-name" href="/"><i class="fas fa-icon"></i>vanilla.toomas633.com</a>
     </header>
-    <div class="sidebar">
+    <button class="sidebtn" onclick="toggleNav()">☰</button>
+    <div class="sidebar" id="Sidebar">
       <a href="/">Home</a>
       <h2>Vanilla</h2>
       <a href="/stats.html">Statistics</a>
       <a href="/map.html" class="active">Map</a>
     </div>
-    <div class="data">
-      <iframe title="Map" class="map" src="https://map.toomas633.com" allowfullscreen>
+    <div class="content" id="Content">
+      <iframe title="Map" class="map" src="https://map.toomas633.com" allowfullscreen></iframe>
     </div>
+    <script type="text/javascript" src="/js/base.js"></script>
   </body>
 </html>
